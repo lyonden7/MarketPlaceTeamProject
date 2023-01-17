@@ -15,7 +15,11 @@
 		287A96052976ABD500FEAA9A /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287A96042976ABD500FEAA9A /* Services.swift */; };
 		287A96072976ABDF00FEAA9A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287A96062976ABDF00FEAA9A /* Models.swift */; };
 		287A96092976ABE900FEAA9A /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287A96082976ABE900FEAA9A /* Views.swift */; };
-		287A960B2976ABFE00FEAA9A /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287A960A2976ABFE00FEAA9A /* ViewControllers.swift */; };
+		287A960F2976EDF900FEAA9A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287A960E2976EDF900FEAA9A /* TabBarController.swift */; };
+		287A96112976F02E00FEAA9A /* MainScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287A96102976F02E00FEAA9A /* MainScreenStoryboard.storyboard */; };
+		287A96132976F0F800FEAA9A /* CartStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287A96122976F0F800FEAA9A /* CartStoryboard.storyboard */; };
+		287A96152976F12D00FEAA9A /* AccountStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287A96142976F12D00FEAA9A /* AccountStoryboard.storyboard */; };
+		287A96172976F15300FEAA9A /* AboutUsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287A96162976F15300FEAA9A /* AboutUsStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +33,11 @@
 		287A96042976ABD500FEAA9A /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		287A96062976ABDF00FEAA9A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		287A96082976ABE900FEAA9A /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
-		287A960A2976ABFE00FEAA9A /* ViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		287A960E2976EDF900FEAA9A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		287A96102976F02E00FEAA9A /* MainScreenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainScreenStoryboard.storyboard; sourceTree = "<group>"; };
+		287A96122976F0F800FEAA9A /* CartStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartStoryboard.storyboard; sourceTree = "<group>"; };
+		287A96142976F12D00FEAA9A /* AccountStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccountStoryboard.storyboard; sourceTree = "<group>"; };
+		287A96162976F15300FEAA9A /* AboutUsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AboutUsStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,10 @@
 			children = (
 				287A95EF2975C95500FEAA9A /* Main.storyboard */,
 				287A95F42975C95A00FEAA9A /* LaunchScreen.storyboard */,
+				287A96102976F02E00FEAA9A /* MainScreenStoryboard.storyboard */,
+				287A96122976F0F800FEAA9A /* CartStoryboard.storyboard */,
+				287A96142976F12D00FEAA9A /* AccountStoryboard.storyboard */,
+				287A96162976F15300FEAA9A /* AboutUsStoryboard.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -119,7 +131,7 @@
 		287A96022976A3C400FEAA9A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				287A960A2976ABFE00FEAA9A /* ViewControllers.swift */,
+				287A960E2976EDF900FEAA9A /* TabBarController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -190,7 +202,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287A96112976F02E00FEAA9A /* MainScreenStoryboard.storyboard in Resources */,
 				287A95F62975C95A00FEAA9A /* LaunchScreen.storyboard in Resources */,
+				287A96132976F0F800FEAA9A /* CartStoryboard.storyboard in Resources */,
+				287A96172976F15300FEAA9A /* AboutUsStoryboard.storyboard in Resources */,
+				287A96152976F12D00FEAA9A /* AccountStoryboard.storyboard in Resources */,
 				287A95F32975C95A00FEAA9A /* Assets.xcassets in Resources */,
 				287A95F12975C95500FEAA9A /* Main.storyboard in Resources */,
 			);
@@ -205,8 +221,8 @@
 			files = (
 				287A95EA2975C95500FEAA9A /* AppDelegate.swift in Sources */,
 				287A96052976ABD500FEAA9A /* Services.swift in Sources */,
-				287A960B2976ABFE00FEAA9A /* ViewControllers.swift in Sources */,
 				287A95EC2975C95500FEAA9A /* SceneDelegate.swift in Sources */,
+				287A960F2976EDF900FEAA9A /* TabBarController.swift in Sources */,
 				287A96092976ABE900FEAA9A /* Views.swift in Sources */,
 				287A96072976ABDF00FEAA9A /* Models.swift in Sources */,
 			);
